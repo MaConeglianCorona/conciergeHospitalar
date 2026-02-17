@@ -1,6 +1,9 @@
 # conciergeHospitalar
 Plataforma web integrada a um dispositivo IoT (ESP32) para gerenciamento de solicitações hospitalares.
 
+TLDRAW:
+>[LINK DA ARQUITETURA PROVAVEL (V1):](https://www.tldraw.com/f/jtJjZGkqKzSB5w92QAjFr?d=v-446.-500.2808.1605.page)
+
 Ferramentas que serao usadas:
 
 >IOT  
@@ -15,9 +18,7 @@ Ferramentas que serao usadas:
   Vue.js
   Quasar Framework
 
-Plataforma de Prototipagem: Wokwi
->[LINK DA ARQUITETURA PROVAVEL (V1):](https://www.tldraw.com/f/jtJjZGkqKzSB5w92QAjFr?d=v-446.-500.2808.1605.page) 
-
+>Plataforma de Prototipagem: Wokwi
 
 
 POST /api/chamadas
