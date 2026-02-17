@@ -32,38 +32,42 @@ POST /api/chamadas
 =====================================================
 Cadastro de Itens da Cozinha (feito pela cozinha)
 POST /api/itens-cozinha
-
+```json
 {
   "nome": "Água",
   "descricao": "Copo 200ml",
   "ativo": true
 }
+```
 =====================================================
 Paciente realiza pedido
 POST /api/solicitacoes
-
+```json
 {
   "cd_paciente": 55,
   "cd_item": 3,
   "tipo": "COZINHA"
 }
+```
 =====================================================
 Atualização de Status (Cozinha)
 PUT /api/solicitacoes/102/status
-
+```json
 {
   "status": "EXECUTANDO"
 }
+```
 =====================================================
 Registro de Sintoma
 POST /api/sintomas
-
+```json
 {
   "cd_paciente": 55,
   "tipo": "DOR",
   "intensidade": 7,
   "descricao": "Dor abdominal"
 }
+```
 ***************************************************************************************************************
 DB: PostgreSQL.
 Tecnologia/Linguagem da API: PHP, Laravel, REST API, Comunicaçao via HTTP + JSON
