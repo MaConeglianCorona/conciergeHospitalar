@@ -21,11 +21,14 @@ FRONTEND
 Formato json
 
 Chamada de Enfermagem (ESP32)
+
 POST /api/chamadas
+```json
 {
   "cd_leito": 10,
   "tipo": "CHAMADA_ENFERMAGEM"
 }
+```
 =====================================================
 Cadastro de Itens da Cozinha (feito pela cozinha)
 POST /api/itens-cozinha
